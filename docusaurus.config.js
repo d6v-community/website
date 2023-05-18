@@ -18,7 +18,7 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'd6v', // Usually your GitHub org/user name.
+  organizationName: 'd6v-community', // Usually your GitHub org/user name.
   projectName: 'website', // Usually your repo name.
 
   onBrokenLinks: 'throw',
@@ -78,7 +78,7 @@ const config = {
           },
           { to: '/blog', label: 'Blog', position: 'left' },
           {
-            href: 'https://github.com/d6v',
+            href: 'https://github.com/d6v-community',
             label: 'GitHub',
             position: 'right',
           },
@@ -105,7 +105,7 @@ const config = {
               },
               {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/d6v',
+                href: 'https://discord.gg/ZZPc6AMCp5',
               },
             ],
           },
@@ -118,7 +118,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/d6v',
+                href: 'https://github.com/d6v-community',
               },
             ],
           },
