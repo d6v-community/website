@@ -11,6 +11,9 @@ jobs:
   deploy:
     name: Deploy to GitHub Pages
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pages: write
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
@@ -39,7 +42,4 @@ jobs:
           user_name: github-actions[bot]
           user_email: 41898282+github-actions[bot]@users.noreply.github.com
 
-permissions:
-    contents: write
-    pages: write
 
